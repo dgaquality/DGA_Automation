@@ -138,6 +138,7 @@ public class BasePage {
 
         Robot robot = new Robot();
 
+        /*
         // CTRL + C copy image path
         StringSelection selection = new StringSelection(imagePath);
         System.out.println(imagePath);
@@ -146,7 +147,7 @@ public class BasePage {
         robot.keyPress(KeyEvent.VK_ENTER);
         robot.keyRelease(KeyEvent.VK_ENTER);
         robot.delay(2000);
-
+*/
     }
 
     public void crtv () throws AWTException {
