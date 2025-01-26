@@ -143,6 +143,8 @@ public class BasePage {
         StringSelection selection = new StringSelection(imagePath);
         System.out.println(imagePath);
         Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+        */
+        /*
         clipboard.setContents(selection, null);
         robot.keyPress(KeyEvent.VK_ENTER);
         robot.keyRelease(KeyEvent.VK_ENTER);
@@ -158,10 +160,14 @@ public class BasePage {
         robot.keyPress(KeyEvent.VK_V);
         robot.keyRelease(KeyEvent.VK_V);
         robot.keyRelease(KeyEvent.VK_CONTROL);
+
+        /*
         robot.delay(2000);
         robot.keyPress(KeyEvent.VK_ENTER);
         robot.keyRelease(KeyEvent.VK_ENTER);
         //Thread.sleep(1000);
+
+         */
     }
 
 }
